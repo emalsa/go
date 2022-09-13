@@ -1,0 +1,24 @@
+version: '2.3'
+services:
+
+  golang_test:
+    container_name: ricardoanalytic_golang
+    build:
+      context: .
+      dockerfile: golang.dockerfile
+    ports:
+      - "8080:4444"
+#    volumes:
+#      - golang:/usr
+#      - gosrc:/src
+#      - gobin:/bin
+
+#volumes:
+#  golang:
+#  gosrc:
+#  gobin:
+
+networks:
+  default:
+    external:
+      name: whatis

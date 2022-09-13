@@ -1,0 +1,841 @@
+{
+	"type": "object",
+	"value": {
+		"initialState": {
+			"router": {
+				"location": {
+					"pathname": "/de/a/schreibtisch-1164808140/",
+					"search": "",
+					"hash": "",
+					"key": "dlluhp"
+				},
+				"action": "POP"
+			},
+			"common": {
+				"config": {
+					"hostname": "www.ricardo.ch",
+					"isAdmin": false,
+					"preferredLocale": "de",
+					"cdnUrl": "https://ricas-6a38.kxcdn.com",
+					"isWebViewInApp": false,
+					"deviceType": "mobile"
+				},
+				"user": {
+					"current": null
+				},
+				"savedArticles": {
+					"items": []
+				},
+				"launchDarkly": {
+					"userId": "0d0538d2-6900-4c62-9c69-e9efb70c92eb",
+					"flags": {
+						"2nd-hand-day": false,
+						"2nd-hand-day-listing-form": false,
+						"Bid-wording-FR": "OtherLocals",
+						"admin-tools-edit-account-statuses": true,
+						"android-stripe-integration": true,
+						"ato-security-check-landline": true,
+						"browser-warning-listing-form": true,
+						"buyer-protection-fake-door": false,
+						"careers-imagegallery": false,
+						"curation-tool": false,
+						"custom-delivery-address-enabled": true,
+						"delivery-poc": false,
+						"draft-status-indicator": false,
+						"enable-headers-forwarding": true,
+						"fma-on-site-communication-enabled": false,
+						"fma-turn-off-fetching-saved-search-previews": false,
+						"fma-turn-off-recommended-articles": false,
+						"hash-tamedia-bid": true,
+						"id-verification-onfido": false,
+						"image-uploader-user-guidance": false,
+						"images-cdn": "https://img.ricardostatic.ch",
+						"images-sourced-from-gcs": true,
+						"imaginary-rf": true,
+						"imaginary-rf-nocookie": false,
+						"information-banner": false,
+						"intercom-wishlist-feedback": false,
+						"ios-stripe-integration": true,
+						"jacket-attributes-user-guidance": true,
+						"kill-the-postman": false,
+						"level-box-user-guidance": false,
+						"login-keycloak-redirect": true,
+						"login-tx-redirect": "A",
+						"logistic-menu": false,
+						"logistic-menu-fake-door": false,
+						"missing-attribute-value": false,
+						"mobile-survey-enabled": true,
+						"move-parts-and-accessories": true,
+						"new-checkout-success": true,
+						"new-emails": false,
+						"new-login-tx-style": false,
+						"new-my-ricardo": true,
+						"new-payment-methods": false,
+						"new-srp": false,
+						"no-boost-reactivation": false,
+						"offline-payments": true,
+						"one-trust-cmp-experiment": false,
+						"one-trust-cmp-experiment-2": false,
+						"order-confirmation-flow": true,
+						"order-create-v2": true,
+						"payment-show-bank-transfer": false,
+						"payment-stripe-new-purchase-notifications": true,
+						"pdp-embed-youtube": true,
+						"pdp-fr-translation": "OtherLocals",
+						"pdp-realtime-bid-notifications": true,
+						"pdp-realtime-firestore": true,
+						"pdp-seller-section": true,
+						"pick-at-home-hotjar": true,
+						"pick-at-home-intercom": true,
+						"price-offer-2": true,
+						"price-offer-feedback-variations": "none",
+						"price-offer-listing-warn-link-selling-webview": false,
+						"price-offer-selling-webview": true,
+						"price-offer-warn-edit-on-listing-form": false,
+						"product-type-attributes": false,
+						"product-types-intercom": false,
+						"promo-pricing-experiment": false,
+						"qr-slip": false,
+						"rating-new-storage": false,
+						"recommended-articles-by-classification": false,
+						"regifting-campaign": false,
+						"reminder-process": false,
+						"remove-stripe": true,
+						"remove-stripe-final": false,
+						"remove-stripe-part2": true,
+						"reorganise-listing-form-sections": "original",
+						"saved-articles-pagination-filters": true,
+						"sca-enabled": true,
+						"search-articles-refinements-enabled": true,
+						"search-autocomplete-counts-enabled": true,
+						"search-autocomplete-enabled": true,
+						"search-boost-extracted-context-in-ranking-enabled": true,
+						"search-boost-only-validated-articles-enabled": true,
+						"search-bucket-ranking-enabled": true,
+						"search-extract-context-before-search-enabled": true,
+						"search-mobile-ab-test": "new",
+						"search-multiple-dominant-pt-enabled": true,
+						"search-solr-cluster-selector": "solr-cherry-pri",
+						"search-solr-myricardo-cluster-selector": "solr-myricardo-sec",
+						"secure-cookies-httponly": true,
+						"secure-cookies-https": true,
+						"secure-cookies-samesite": false,
+						"seller-ato-flagging": true,
+						"seon-fingerprinting": true,
+						"seq-pdp-bid": false,
+						"simplified-header": false,
+						"single-draft-publishing": false,
+						"solr-search-for-offers": false,
+						"srp-chips-filters": false,
+						"stripe-bank-transfer-disabled": true,
+						"stripe-bank-transfer-disabled-step-3": true,
+						"stripe-capabilities-transfers": true,
+						"stripe-update-account-allow-verified": true,
+						"success-draft-feedback-form": true,
+						"success-feedback-form": false,
+						"swiss-post-banner": true,
+						"swiss-post-for-free": false,
+						"swiss-post-label-on-mails": false,
+						"swisspost-maintenance-mode": false,
+						"temporary-rename-new-my-selling": false,
+						"tmp-has-been-copied": true,
+						"typeform-saved-articles-feedback": true,
+						"vehicles-in-ricardo-listing-form": true,
+						"warn-users": {
+							"all": false,
+							"my-ricardo-refund": false,
+							"hp": false,
+							"my-ricardo-selling": false,
+							"env": "production",
+							"login": false,
+							"confirm-email": false,
+							"bookkeeping": false,
+							"my-ricardo-profile": false,
+							"register": false,
+							"listing": false,
+							"checkout": false,
+							"pdp": false,
+							"ratings": false,
+							"my-ricardo-fees": false,
+							"complete-profile": false,
+							"srp": false,
+							"my-ricardo-saved": false,
+							"my-ricardo-buying": false
+						},
+						"warn-users-realtime-notifications": false,
+						"we-are-open": true,
+						"wishlist": false,
+						"workshop-new-selling-domain": false
+					}
+				},
+				"notification": {
+					"notifications": []
+				},
+				"location": {
+					"isBrowserGeolocForced": false
+				}
+			},
+			"pdp": {
+				"article": {
+					"id": "1164808140",
+					"user_id": 402238493,
+					"product_id": 1164808140,
+					"category_id": 40400,
+					"title": "Schreibtisch",
+					"condition": 3,
+					"condition_value": "Gebraucht",
+					"condition_key": "used",
+					"creation_date": "2021-03-20T12:27:00Z",
+					"status": 0,
+					"legacy_status": 0,
+					"internal_reference": "",
+					"end_date": "2021-05-16T17:59:00Z",
+					"is_archived": false,
+					"api_id": 1519,
+					"is_planned": false,
+					"is_from_auto_ricardo": false,
+					"product_type": {
+						"id": 98,
+						"key": "desk",
+						"insert_id": "473a77ba-a4b6-41d2-8ce6-9045235c0004",
+						"product_type_source": "LISTING_FORM",
+						"product_type_selection_source": "DI_CLASSIFIER",
+						"platform": "WEB",
+						"validated": true,
+						"status": "PUBLISHED",
+						"name": "Schreibtisch",
+						"attributes": [
+							{
+								"id": 10001,
+								"values": [
+									{
+										"value": 10001001,
+										"type": "ENUM",
+										"name": "Weiss",
+										"is_other_value": false,
+										"status": "PUBLISHED",
+										"group": "color"
+									}
+								],
+								"validated": true,
+								"status": "PUBLISHED",
+								"key": "color",
+								"multi_valued": true,
+								"localized_values": true,
+								"name": "Farbe"
+							},
+							{
+								"id": 10173,
+								"values": [
+									{
+										"value": 145,
+										"type": "NUMERIC",
+										"is_other_value": false,
+										"status": "",
+										"group": ""
+									}
+								],
+								"validated": true,
+								"status": "PUBLISHED",
+								"key": "width_cm",
+								"multi_valued": false,
+								"localized_values": false,
+								"name": "Breite",
+								"unit": "cm"
+							},
+							{
+								"id": 10174,
+								"values": [
+									{
+										"value": 65,
+										"type": "NUMERIC",
+										"is_other_value": false,
+										"status": "",
+										"group": ""
+									}
+								],
+								"validated": true,
+								"status": "PUBLISHED",
+								"key": "length_cm",
+								"multi_valued": false,
+								"localized_values": false,
+								"name": "L\u00e4nge",
+								"unit": "cm"
+							},
+							{
+								"id": 10175,
+								"values": [
+									{
+										"value": 75,
+										"type": "NUMERIC",
+										"is_other_value": false,
+										"status": "",
+										"group": ""
+									}
+								],
+								"validated": true,
+								"status": "PUBLISHED",
+								"key": "height_cm",
+								"multi_valued": false,
+								"localized_values": false,
+								"name": "H\u00f6he",
+								"unit": "cm"
+							},
+							{
+								"id": 30141,
+								"values": [
+									{
+										"value": 10003021,
+										"type": "ENUM",
+										"name": "Holz",
+										"is_other_value": false,
+										"status": "PUBLISHED",
+										"group": "material"
+									}
+								],
+								"validated": true,
+								"status": "PUBLISHED",
+								"key": "desk_material",
+								"multi_valued": false,
+								"localized_values": true,
+								"name": "Material"
+							},
+							{
+								"id": 30245,
+								"values": [
+									{
+										"value": 104,
+										"type": "NUMERIC",
+										"is_other_value": false,
+										"status": "",
+										"group": ""
+									}
+								],
+								"validated": true,
+								"status": "PUBLISHED",
+								"key": "co2_savings",
+								"multi_valued": false,
+								"localized_values": false,
+								"name": "Gespartes CO\u2082",
+								"unit": "kg"
+							}
+						]
+					},
+					"category": {
+						"id": 40400,
+						"name": "Schreibtische",
+						"display_name": "Kinder-Schreibtische",
+						"active": true,
+						"type": "marketplace",
+						"attributes": null
+					},
+					"offer": {
+						"availability_key": "in_stock",
+						"city": "Baden",
+						"end_date": "2021-05-16T17:59:00Z",
+						"initial_quantity": 1,
+						"offer_id": "1164808140",
+						"offer_type": "auction",
+						"payment_description": "",
+						"payment_method_keys": [
+							"cash"
+						],
+						"price": null,
+						"remaining_quantity": 1,
+						"remaining_time": 242560,
+						"start_date": "2021-05-09T20:48:00Z",
+						"warranty_description": "",
+						"zip_code": "5400",
+						"price_offer": {
+							"seller_allows_price_offers": false,
+							"can_receive_price_offers": false,
+							"minimum_price": null
+						}
+					},
+					"description": {
+						"html": "\u003cp\u003eSchreibtisch mit 8 Schubladen, Farbe weiss und schwarz\u003c/p\u003e",
+						"locale": "de"
+					},
+					"images": [
+						{
+							"url": "https://img.ricardostatic.ch/t_1000x750/pl/1164808140/10/1/schreibtisch.jpg",
+							"previewUrl": "https://img.ricardostatic.ch/t_100x75/pl/1164808140/10/1/",
+							"bigSizeUrl": "https://img.ricardostatic.ch/t_1800x1350/pl/1164808140/10/1/",
+							"maxSize": 640
+						},
+						{
+							"url": "https://img.ricardostatic.ch/t_1000x750/pl/1164808140/10/2/",
+							"previewUrl": "https://img.ricardostatic.ch/t_100x75/pl/1164808140/10/2/",
+							"bigSizeUrl": "https://img.ricardostatic.ch/t_1800x1350/pl/1164808140/10/2/",
+							"maxSize": 640
+						},
+						{
+							"url": "https://img.ricardostatic.ch/t_1000x750/pl/1164808140/10/3/",
+							"previewUrl": "https://img.ricardostatic.ch/t_100x75/pl/1164808140/10/3/",
+							"bigSizeUrl": "https://img.ricardostatic.ch/t_1800x1350/pl/1164808140/10/3/",
+							"maxSize": 640
+						},
+						{
+							"url": "https://img.ricardostatic.ch/t_1000x750/pl/1164808140/10/4/",
+							"previewUrl": "https://img.ricardostatic.ch/t_100x75/pl/1164808140/10/4/",
+							"bigSizeUrl": "https://img.ricardostatic.ch/t_1800x1350/pl/1164808140/10/4/",
+							"maxSize": 640
+						}
+					],
+					"isLegacyArticle": false,
+					"shippingInfo": [
+						{
+							"cost": 0,
+							"key": "get_by_buyer"
+						}
+					],
+					"attributes": [
+						{
+							"label": "Farbe",
+							"key": "color",
+							"valueLabel": "Weiss",
+							"value": "10001001",
+							"attributeValueGroup": "color"
+						},
+						{
+							"label": "Breite",
+							"key": "width_cm",
+							"valueLabel": "145 cm",
+							"value": ""
+						},
+						{
+							"label": "L\u00e4nge",
+							"key": "length_cm",
+							"valueLabel": "65 cm",
+							"value": ""
+						},
+						{
+							"label": "H\u00f6he",
+							"key": "height_cm",
+							"valueLabel": "75 cm",
+							"value": ""
+						},
+						{
+							"label": "Material",
+							"key": "desk_material",
+							"valueLabel": "Holz",
+							"value": "10003021",
+							"attributeValueGroup": "material"
+						},
+						{
+							"label": "Gespartes CO\u2082",
+							"key": "co2_savings",
+							"valueLabel": "104 kg",
+							"value": ""
+						}
+					],
+					"seller": {
+						"created_at": "2008-06-26T16:23:04.5Z",
+						"nickname": "raegewurm",
+						"isPro": false,
+						"account_type": "private",
+						"addresses": [
+							{
+								"area_code": "AG",
+								"city": "Baden",
+								"zip_code": "5400"
+							}
+						],
+						"country": "CH",
+						"memberSince": "2008",
+						"memberSinceYear": 2008,
+						"articleCount": 20,
+						"soldArticlesCount": 523,
+						"boughtArticlesCount": 12,
+						"ratingsCount": 287,
+						"score": 1,
+						"level": "normal",
+						"accountStatus": "open",
+						"identification": {
+							"idDocument": {
+								"status": "not_verified"
+							},
+							"phoneNumber": {
+								"status": "not_verified"
+							},
+							"postalAddress": {
+								"status": "verified",
+								"verified_at": "2008-07-08T00:00:00Z"
+							}
+						},
+						"avatarSrc": "https://img.ricardostatic.ch/t_225/a/2e94659c-427d-4a6a-b8a1-650db9eaee3e",
+						"id": "402238493",
+						"openOffers": [
+							{
+								"id": "1166535168",
+								"title": "Trekking-Bike",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T17:59:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166535168/9/1/trekking-bike.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 100,
+								"bidsCount": 0,
+								"categoryId": 43885,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1164810048",
+								"title": "Regal",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T17:59:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1164810048/12/1/regal.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 79340,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1166271756",
+								"title": "Herrenstiefel",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166271756/8/1/herrenstiefel.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 15,
+								"bidsCount": 0,
+								"categoryId": 68754,
+								"isPromo": false,
+								"conditionKey": "like_new"
+							},
+							{
+								"id": "1166272086",
+								"title": "Herrenstiefel",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T17:59:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166272086/7/1/herrenstiefel.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 10,
+								"bidsCount": 0,
+								"categoryId": 68754,
+								"isPromo": false,
+								"conditionKey": "like_new"
+							},
+							{
+								"id": "1166278950",
+								"title": "Holzbohrer",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T17:59:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166278950/8/1/holzbohrer.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 39938,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1165193086",
+								"title": "Wohnwand",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T17:59:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1165193086/10/1/wohnwand.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 25,
+								"bidsCount": 0,
+								"categoryId": 79327,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1166272358",
+								"title": "Herrenschuhe",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T17:59:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166272358/9/1/herrenschuhe.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 10,
+								"bidsCount": 0,
+								"categoryId": 68752,
+								"isPromo": false,
+								"conditionKey": "like_new"
+							},
+							{
+								"id": "1166841960",
+								"title": "Schreibtisch",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166841960/10/1/schreibtisch.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 39048,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1166279940",
+								"title": "Bohrer",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166279940/7/1/bohrer.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 39852,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1171354106",
+								"title": "Leiter",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1171354106/1/1/leiter.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 20,
+								"bidsCount": 0,
+								"categoryId": 39931,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1165195148",
+								"title": "Salontisch",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1165195148/9/1/salontisch.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 10,
+								"bidsCount": 0,
+								"categoryId": 79271,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1164809726",
+								"title": "Bett",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1164809726/13/1/bett.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 40458,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1166840236",
+								"title": "Bett",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1166840236/12/1/bett.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 40458,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1168139822",
+								"title": "Bett",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1168139822/5/1/bett.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 40458,
+								"isPromo": false,
+								"conditionKey": "used"
+							},
+							{
+								"id": "1169557768",
+								"title": "Tisch",
+								"hasBuyNow": false,
+								"hasAuction": true,
+								"endDate": "2021-05-16T18:00:00Z",
+								"image": "https://img.ricardostatic.ch/t_200x150/pl/1169557768/4/1/tisch.jpg",
+								"buyNowPrice": null,
+								"bidPrice": 1,
+								"bidsCount": 0,
+								"categoryId": 40338,
+								"isPromo": false,
+								"conditionKey": "used"
+							}
+						]
+					},
+					"showBankTransfer": false,
+					"categories": [
+						{
+							"url": "/de/c/haushalt-und-wohnen-40295/",
+							"name": "Haushalt \u0026 Wohnen",
+							"slug": "haushalt-und-wohnen"
+						},
+						{
+							"url": "/de/c/kinderzimmer-40386/",
+							"name": "Kinderzimmer / Kinderm\u00f6bel",
+							"slug": "kinderzimmer"
+						},
+						{
+							"url": "/de/c/schreibtische-40400/",
+							"name": "Schreibtische",
+							"slug": "schreibtische"
+						}
+					],
+					"orders": [],
+					"seoMeta": {
+						"canIndex": true,
+						"title": "Schreibtisch | Kaufen auf Ricardo",
+						"metaRobots": "index, follow",
+						"canonicalUrl": "https://www.ricardo.ch/de/a/schreibtisch-1164808140/",
+						"alternateUrls": [
+							{
+								"locale": "de",
+								"alternateUrl": "https://www.ricardo.ch/de/a/schreibtisch-1164808140/"
+							},
+							{
+								"locale": "fr",
+								"alternateUrl": "https://www.ricardo.ch/fr/a/schreibtisch-1164808140/"
+							},
+							{
+								"locale": "it",
+								"alternateUrl": "https://www.ricardo.ch/it/a/schreibtisch-1164808140/"
+							}
+						],
+						"metaDescription": "Startpreis: CHF 1 | Zustand: Gebraucht | Schreibtisch in Baden online kaufen auf Ricardo | Schreibtisch mit 8 Schubladen, Farbe weiss und schwarz"
+					},
+					"errorCode": null,
+					"feedback": {
+						"state": "hidden"
+					},
+					"translationFR": {
+						"canTranslate": false,
+						"status": "original",
+						"title": "",
+						"description": ""
+					}
+				},
+				"bid": {
+					"data": {
+						"next_minimum_bid": 1,
+						"last_bid": null,
+						"maximum_bid": null,
+						"increment": 5,
+						"bids_count": 0,
+						"start_price": 1,
+						"bids": []
+					},
+					"bidConfirmation": {
+						"open": false,
+						"loading": false,
+						"success": false,
+						"outbid": false,
+						"error": null
+					}
+				},
+				"questionsAnswers": {
+					"showMore": false,
+					"messages": [],
+					"fetchingMessages": false,
+					"fetchingError": false,
+					"sendingQuestion": false,
+					"sendingAnswer": false,
+					"errorCode": null,
+					"errorId": null,
+					"uploadedImages": [
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"questionTextId": "",
+					"questionDefaultText": ""
+				},
+				"realtimeFlags": {
+					"shouldConnectToFireStore": true,
+					"shouldDisplayRealtimeNotifications": true,
+					"areRealtimeNotificationsEnabled": true
+				},
+				"priceOffer": {
+					"status": "offerNotEligible"
+				}
+			},
+			"home": {
+				"categories": {
+					"items": [],
+					"drawerIsOpen": false
+				},
+				"categories4You": {
+					"items": [],
+					"loading": false
+				},
+				"marketingBanner": {},
+				"marketingTopBanner": {},
+				"toiletSection": {
+					"items": [],
+					"limit": 40,
+					"hasMoreArticle": false,
+					"isFetching": true,
+					"isFetchingMore": false
+				},
+				"sellerSection": {
+					"sellers": [],
+					"isFetching": true
+				},
+				"savedSearches": {
+					"items": null
+				},
+				"recentlyBrowsedArticles": {
+					"items": [],
+					"loading": true
+				},
+				"recommendedArticles": {
+					"items": null
+				}
+			},
+			"savedSellers": {
+				"favoriteSellers": [],
+				"isLoading": false
+			}
+		},
+		"config": {
+			"WEBPACK_PUBLIC_PATH": "https://static.ricardo.ch/marketplace-spa/assets/",
+			"GOOGLE_MAPS_JS_API_KEY": "AIzaSyCaeIEnRgqqlUsvfcvQBYDvYasyFos7iIY",
+			"GOOGLE_MAPS_EMBED_API_KEY": "AIzaSyAJpsE0REIqEZob9hpZfb7NTcX93VC5sVY",
+			"APP_ENV": "prod",
+			"TATM_ADS_URL": "https://tdn.da-services.ch/v/1.7.9/ricardo.js",
+			"TATM_ADS_URL_CMP": "https://tdn.da-services.ch/v/1.8.0/ricardo.js",
+			"BEAGLE": "https://beagle.prod.tda.link/scripts/ricardo/beagle.min.js",
+			"PAGEVIEWS_API": "/px/pv/?aid=",
+			"HOTJAR_SITE_ID": "414774",
+			"INTERCOM_APP_ID": "a8y0uk5a",
+			"STRIPE_PUBLIC_KEY": "pk_live_chC1OkatQSXKt0hiKz8ebhAV",
+			"FIREBASE_APIKEY": "AIzaSyC2y70T_NQj801ZHio0ggvLBV8YVe6Usqg",
+			"FIREBASE_AUTHDOMAIN": "ricardo-ch-dev-firebase1.firebaseapp.com",
+			"FIREBASE_DATABASEURL": "https://ricardo-ch-dev-firebase1.firebaseio.com",
+			"FIREBASE_PROJECTID": "ricardo-ch-dev-firebase1",
+			"FIREBASE_STORAGEBUCKET": "ricardo-ch-dev-firebase1.appspot.com",
+			"FIREBASE_MESSAGINGSENDERID": "998796946271",
+			"FIREBASE_APPID": "1:998796946271:web:7bfcbf54229c78b02024ea",
+			"SENTRY_URL": "https://526e01b6d1cd4e09acbb756753218d1a@sentry.io/1304722",
+			"SEON_AGENT_URL": "https://cdn.seon.io/js/v4/agent.js",
+			"APP_VERSION": "6fc6e2c0"
+		},
+		"guessedBreakpoint": "sm"
+	}
+}
